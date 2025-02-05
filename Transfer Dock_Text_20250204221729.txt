@@ -1,0 +1,290 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello, Sabiha!</h1>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Sabiha ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+            overflow: hidden;
+        }
+
+        .heart-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 180px;
+            animation: pulse 2s infinite;
+        }
+
+        .heart {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            transform: rotate(-45deg);
+            background: linear-gradient(135deg, #ff6f61, #ff4e50);
+            margin: 0 auto;
+        }
+
+        .heart::before,
+        .heart::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: inherit;
+            border-radius: 50%;
+            top: -100px;
+            left: 0;
+        }
+
+        .heart::after {
+            left: 100px;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1) rotate(-45deg);
+            }
+            50% {
+                transform: scale(1.1) rotate(-45deg);
+            }
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            display: none;
+        }
+
+        .content h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+
+        .shayari-section {
+            margin-top: 20px;
+        }
+
+        .shayari {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #ff4e50;
+        }
+
+        .art img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            margin-top: 20px;
+            color: #ff6f61;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart-container">
+        <div class="heart"></div>
+        <div class="content">
+            <h1>For My Sabiha ❤️</h1>
+            <div class="shayari-section">
+                <p class="shayari">"फूलों की तरह नाज़ुक है वो,<br> किताबों की तरह गहरी है वो।"</p>
+                <p class="shayari">"कुछ तो तन्हाई के सहारे जीने की आदत डाल ली हमने,<br> इश्क़ से बग़ावत तो नहीं पर खुद से वफ़ा कर ली।"</p>
+            </div>
+            <div class="art">
+                <img src="https://via.placeholder.com/300x200.png?text=Romantic+Art" alt="Romantic Art">
+            </div>
+            <footer>
+                Made with ❤️ by Yahya
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // Show content after animation
+        setTimeout(() => {
+            document.querySelector('.content').style.display = 'block';
+        }, 4000); // 4 seconds
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Sabiha ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+            overflow: hidden;
+        }
+
+        .heart-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 180px;
+            animation: pulse 2s infinite;
+        }
+
+        .heart {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            transform: rotate(-45deg);
+            background: linear-gradient(135deg, #ff6f61, #ff4e50);
+            margin: 0 auto;
+        }
+
+        .heart::before,
+        .heart::after {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: inherit;
+            border-radius: 50%;
+            top: -100px;
+            left: 0;
+        }
+
+        .heart::after {
+            left: 100px;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1) rotate(-45deg);
+            }
+            50% {
+                transform: scale(1.1) rotate(-45deg);
+            }
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            display: none;
+        }
+
+        .content h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+
+        .shayari-section {
+            margin-top: 20px;
+        }
+
+        .shayari {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #ff4e50;
+        }
+
+        .art img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            margin-top: 20px;
+            color: #ff6f61;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart-container">
+        <div class="heart"></div>
+        <div class="content">
+            <h1>For My Sabiha ❤️</h1>
+            <div class="shayari-section">
+                <p class="shayari">"फूलों की तरह नाज़ुक है वो,<br> किताबों की तरह गहरी है वो।"</p>
+                <p class="shayari">"कुछ तो तन्हाई के सहारे जीने की आदत डाल ली हमने,<br> इश्क़ से बग़ावत तो नहीं पर खुद से वफ़ा कर ली।"</p>
+            </div>
+            <div class="art">
+                <img src="https://via.placeholder.com/300x200.png?text=Romantic+Art" alt="Romantic Art">
+            </div>
+            <footer>
+                Made with ❤️ by Yahya
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        // Show content after animation
+        setTimeout(() => {
+            document.querySelector('.content').style.display = 'block';
+        }, 4000); // 4 seconds
+    </script>
+</body>
+</html>
