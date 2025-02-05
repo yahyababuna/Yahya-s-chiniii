@@ -1,0 +1,121 @@
+echo "# Yahya-s-chiniii" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yahyababuna/Yahya-s-chiniii.git
+git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabiha, My Valentine 💖</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6e6;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .meme, .shayri {
+            margin: 20px 0;
+        }
+
+        .meme img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sabiha, You Are My Forever Valentine! 💖</h1>
+    </header>
+
+    <section id="meme-section">
+        <h2>Memes for My Beautiful Sabiha 😍</h2>
+        <div class="meme">
+            <img src="meme1.jpg" alt="Meme 1">
+            <p>When Sabiha smiles, my heart skips a beat. 😍</p>
+        </div>
+        <div class="meme">
+            <img src="meme2.jpg" alt="Meme 2">
+            <p>Sabiha's beauty > Google search results for 'perfect beauty'.</p>
+        </div>
+    </section>
+
+    <section id="shayri-section">
+        <h2>Shayri for My Love 💌</h2>
+        <div class="shayri">
+            <p>"Tere ishq ne mujhe itna paagal kar diya, ki main khud se bhi door ho gaya." - Parveen Shaikh</p>
+        </div>
+        <div class="shayri">
+            <p>"Mohabbat bhi zindagi ki tarah hoti hai, ek pal mein khatm hone wali aur ek pal mein jeene wali." - Jaun Elia</p>
+        </div>
+    </section>
+
+    <section id="video-section">
+        <h2>A Special Video for You 🎥</h2>
+        <video controls>
+            <source src="sabiha_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>Sabiha, you are my today, tomorrow, and forever. I love you! ❤️</p>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ by Yahya for Sabiha</p>
+    </footer>
+
+    <script>
+        // JavaScript for Animations
+        document.addEventListener("DOMContentLoaded", function () {
+            const header = document.querySelector("header");
+            header.style.opacity = "0";
+            setTimeout(() => {
+                header.style.transition = "opacity 2s";
+                header.style.opacity = "1";
+            }, 500);
+        });
+    </script>
+</body>
+</html>
